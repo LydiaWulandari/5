@@ -11,7 +11,8 @@
 header {
   color: #141414;
   padding-bottom: 0%;
-  margin-bottom: 0%;
+  /* margin-bottom: 0%; */
+  /* position: fixed; */
 }
 .topnav {
   background-color: #ffdc3c;
@@ -65,7 +66,7 @@ header {
   padding-left: 15%;
   margin-right: 25%;
   display: flex;
-  margin-bottom: 0.4%;
+  /* margin-bottom: 0.4%; */
 }
 .topnav-right a {
   padding-inline: 5%;
@@ -73,7 +74,7 @@ header {
   text-align: right;
   margin-right: 15%;
   text-decoration: none;
-  margin-bottom: 1%;
+  /* margin-bottom: 1%; */
 }
 /* Change the color of links on hover */
 .topnav .ul a:hover {

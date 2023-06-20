@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -20,12 +21,14 @@ body {
   width: 35%;
   margin-top: 0%;
   margin-left: 8%;
+  cursor: auto;
 }
 .img-home {
   width: 125%;
   height: auto;
   margin-left: 25%;
   text-align: left;
+  cursor: auto;
 }
 .login-form {
   font-size: 130%;
@@ -38,18 +41,26 @@ body {
   border-radius: 15%;
   /* padding-left: 300px; */
 }
-
 .about {
   text-align: right;
-  margin-right: 5%;
+  margin-right: 10%;
   margin-top: 30px;
   color: black;
   font-size: 110%;
-  font-family: raleway;
+}
+.aboutus {
+  font-weight: 500;
+  border: 10px solid #ffdc3c;
+  border-radius: 10px;
+  padding: 3px 10px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  background-color: #ffdc3c;
+  cursor: pointer;
 }
 
-.about a:hover {
-  color: blue;
+.aboutus:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.1);
 }
 
 .container {
@@ -73,6 +84,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 90%;
+  cursor: pointer;
 }
 /* .form-group button :hover {
   background-color: #FFD700;
@@ -220,5 +232,14 @@ body {
     margin-left: -50%;
     margin-right: -50%;
     padding: 0%;
+  }
+  .aboutus {
+    font-weight: 500;
+    font-size: 9px;
+    border: 5px solid #ffdc3c;
+    border-radius: 10px;
+    padding: 3px 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    background-color: #ffdc3c;
   }
 }
